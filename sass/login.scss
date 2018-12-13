@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+.section{
+    width: 100%;
+}
+.article{
+    width: 1230px;
+    height:595px;
+    margin:0 auto;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    
+}
+.login_left{
+    width: 50%;
+    border-right: 1px solid #eee;
+    float: left;
+}
+.login_left h3{
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+.login_left input{
+    width:374px;
+    height: 22px;
+    padding: 12px;
+    color: #1d1d1d;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+}
+.login_group{
+    position: relative;
+    margin-bottom: 34px;
+}
+.login_group span{
+ position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #e52837;
+    display: none;
+}
+.protocols{
+    width:400px;
+    line-height: 60px;
+}
+.protocols span{
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+     cursor: pointer;
+     vertical-align: middle;
+}
+.protocols input{
+     vertical-align: middle;
+}
+.protocols a{
+    float: right;
+    text-decoration: underline;
+}
+.login_btn{
+    width: 400px;
+    height: 60px;
+    background: #ea212e;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    line-height: 60px;
+    display: block;
+}
+.login_btn:hover{
+    background: black;
+}
+.login_right{
+    padding-left: 16.4%;
+    float: left;
+}
+.login_right h3{
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 48px;
+}
+.login_right p{
+
+    margin-bottom: 31px;
+}
+.login_right ul{
+   
+    line-height: 16px;
+    margin-bottom: 95px;
+}
+
+.login_right ul li{
+     line-height: 22px;
+    }
+
+.bottom_right{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #1d1d1d;
+    line-height: 60px;
+    display: block;
+    border: 2px solid #1d1d1d;
+    &:hover{
+        background: #000;
+       
+    }
+     &:hover a{
+         color: white;
+     }
+}      

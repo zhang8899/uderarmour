@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+.section{
+    width: 100%;
+    height: 699px;
+    
+}
+
+
+.article{
+    width: 1320px;
+    height: 699px;
+    margin:0 auto;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    padding: 0 20px;
+}
+.login_reg{
+    width: 870px;
+    height: 538px;
+    margin: 0 auto;
+}
+.login_reg h3 {
+    font-size: 26px;
+    margin-bottom: 34px;
+    font-weight: 100;
+}
+.login_left{
+    width: 50%;
+    float: left;
+}
+.login_right{
+    width: 50%;
+    float: left;
+    
+}
+.reg_group{
+    width: 100%;
+    margin-bottom: 33px;
+    position: relative;
+}
+.reg_group p {
+    font-size: 16px; 
+    margin-bottom: 10px;
+}
+.reg_group input{
+    width:374px;
+    height: 22px;
+    padding: 12px;
+    border: 1px solid #c7c7c7;
+}
+ .reg_group span{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #e52837;
+//  display: none;
+}
+.reg_group_re{
+    margin-left: 35px;
+}   
+.protocols span{
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+     cursor: pointer;
+     vertical-align: middle;
+}
+.protocols input{
+     vertical-align: middle;
+}
+.protocols p{
+     margin-bottom: 12px;
+}
+.bottom{
+width: 100%;
+}
+.bottom_left{
+    width: 50%;
+    padding-right: 35px;
+    float: left;
+}
+.bottom_right{
+        float: left;
+        line-height: 60px;  
+        font-size: 16px;    
+}
+.reg_btn{
+    width: 400px;
+    height: 60px;
+    background: #ea212e;
+    text-align: center;
+    font-weight:600;
+    font-size: 24px;
+    color: #fff;
+    line-height: 60px;
+    display: block;
+}
+.reg_btn:hover{
+    background: black;
+}
+.bottom_right a{
+    text-decoration: underline;
+}

@@ -1,0 +1,169 @@
+
+
+.section{
+	width: 100%;
+	
+}
+.aricle {
+	width: 95%;
+	overflow: hidden;
+	margin:60px auto;
+}
+.detail_left{
+	width: 739px;
+	height:572px;
+	float: left;
+	
+}
+.detail_right{
+	width: 546px;
+	height:599px;
+	float: left;
+	margin-left: 60px;
+	
+}
+.tab{
+	width: 56px;
+	float: left;
+}
+.tab li{
+	margin-bottom: 10px;
+}
+
+.tab img{
+	width:56px;
+	height: 64px; 
+	border: 1px solid #c7c7c7;
+}
+.tab li:hover img{
+	border: 2px solid black;
+}
+.tab_show{
+	width: 636px;
+	height: 572px;
+	background:#f0f0f0;
+	float: right;
+	position: relative;
+}
+
+ .tab_show img{
+    width: 636px;
+	height: 572px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+} 
+
+ .tab_show .active{
+	display: block;	
+}
+.mask{
+	width: 300px;
+	height: 300px;
+	background: #f0f0f0;
+	opacity: .6;
+	border: 1px solid black;
+	position: absolute;
+	display: none;
+	cursor: crosshair;
+}
+.showBig{
+	width: 446px;
+	height:485px;
+	position: absolute;
+	left: 686px;
+	top:0;
+	border:1px solid black ;
+	display: none;
+	/*background:url(../img/tabshow1.png);*/
+
+}
+.concent{
+	padding: 0 15% 0 8%;
+}
+.concent h3{
+	font-size: 18px;
+	margin-bottom: 23px;
+}
+.concent p{
+	font-size: 16px;
+	margin-bottom: 32px;
+}
+.concent p:nth-of-type(3){
+	margin-bottom: 16px;
+}
+.color{
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.color li{
+	width: 42px;
+	height: 30px;
+	border:1px solid #c7c7c7;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.color li:nth-child(1){
+	background:#d8d8d6 ;
+}
+.color li:nth-child(2){
+	background:#82888a ;
+}
+.color li:nth-child(3){
+	background:#ffffff ;
+}
+.color li:nth-child(4){
+	background:#ffffff ;
+}
+.color li:nth-child(5){
+	background:#054a6b ;
+}
+.color li:nth-child(6){
+	background:#231f20 ;
+}
+.color li:nth-child(7){
+	background:#a49885 ;
+}
+.color li:nth-child(8){
+	background:#a70023 ;
+}
+.concent h2{
+	font-size:12px;
+	margin-bottom: 14px;
+}
+.size{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.size li{
+	width: 42px;
+	height: 36px;
+	border:1px solid #c7c7c7;
+	line-height: 36px;
+	text-align: center;
+	float: left;
+	margin-right: 13px;
+	margin-bottom:12px;
+}
+.sum{
+	margin-bottom: 25px;
+}
+.buygoods a{
+	display: inline-block;
+	width: 189px;
+	height: 48px;
+	font-size: 12px;
+	color: white;
+	line-height: 48px;
+	text-align: center;
+	font-weight: 600;
+}
+.buygoods a:nth-child(1){
+	background: #ea212e;
+	margin-right: 16px;
+}
+.buygoods a:nth-child(2){
+	background: #000;
+}

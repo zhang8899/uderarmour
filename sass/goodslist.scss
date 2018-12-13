@@ -1,0 +1,105 @@
+
+
+@charset "utf-8";
+
+/* 商品列表  */
+
+.section{
+     width: 1320px;
+    height: auto;
+    padding:0 72px;
+    .list_header{
+        margin: 49px auto 19px;
+        .list_title{
+            margin-bottom: 7px;
+            h2{
+                display: inline-block;
+                font-size: 24px;
+                color: #333;
+                line-height: 22px;
+                font-weight: 100;
+            }
+        }
+        .list_inline{
+            font-size: 14px;
+            color: #7c7c7c;
+            line-height: 22px;
+            ul{
+                   
+                li{
+                    display: inline-block;
+                    a{
+                      color: #7c7c7c;
+                    }
+                }
+            }
+        }
+    }
+   .list_nav{
+       margin-bottom: 10px;
+       ul{
+           overflow: hidden;
+           background: #eeeeee;
+          li{
+             float: left; 
+             width: 115px;
+             height: 50px;
+             font-size: 16px;
+             color:#333333;
+             line-height: 50px;
+             text-align: center;
+          } 
+       }
+   }
+   .article{
+        width: 1320px;
+       .moregoods{
+           overflow: hidden;
+           padding-bottom: 58px;
+           .list_items{
+                float: left;
+                padding: 10px;
+                width:300px;
+                margin: 5px;
+                .list_img{
+                    width:320px;
+                    height:384px;
+                    background: #f0f0f0;
+                    position: relative;
+                   img{
+                     @extend.list_img;
+                     position: absolute;
+                     left:0;
+                     top:0;
+                  }
+                    .back{
+                        display: none;
+                    } 
+                   &:hover .back{
+                       display: block;
+                   }
+                   
+               }
+                .list_con{
+                    margin-top: 26px;
+                    
+                    .good_text{
+                        padding: 26px 0 8px 0;
+                        font-size: 14px;
+                        color:#1d1d1d;
+                    }
+                    .good_price{
+                         font-size: 12px;
+                         color:#5a5a5a;
+                    }
+                }  
+              
+           }
+       }
+   }
+   .list_footer{
+       text-align: center;
+       margin-bottom: 20px;
+   }
+
+}

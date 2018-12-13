@@ -1,0 +1,110 @@
+
+.section{
+	width: 100%;
+}
+.aricle{
+	width: 1282px;
+	margin:0 auto;
+	margin-top:64px;
+	margin-bottom: 76px;
+}
+.title{
+	overflow: hidden;
+}
+.title h3{
+	width: 300px;
+	height:30px;
+	line-height: 30px;
+	font-size: 28px;
+	font-weight: 100;
+	text-indent: 30px;
+	float: left;
+}
+.title p{
+	float: right;
+	width: 300px;
+	height: 30px;
+	
+	font-size: 20px;
+	line-height: 30px;
+}
+.goods_buy{
+	overflow: hidden;
+	border: 1px solid #eee;
+}
+.goods_buy ul{
+	width: 100%;
+}
+.goods_buy li{
+	height: 50px;
+	background: #eeeeee;
+	color: #333333;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+}
+.goods_buy li:nth-child(1){
+	width: 110px;
+}
+.goods_buy li:nth-child(2){
+	width: 568px;
+}
+.goods_buy li:nth-child(3){
+	width: 127px;
+}
+.goods_buy li:nth-child(4){
+	width: 175px;
+}
+.goods_buy li:nth-child(5){
+	width: 136px;
+}
+.goods_buy li:nth-child(6){
+	width: 164px;
+}
+
+.account{
+	margin-top: 42px;
+	width: 100%;
+	overflow: hidden;
+}
+.account_left{
+	width: 216px;
+	font-size:  18px;
+	color:#4a4a4a;
+	float:right;
+
+}
+.account_left p{
+	height: 60px;
+}
+.account_center{
+	width: 240px;
+	font-size: 28px;
+	color:#1d1d5c;
+	float:right;
+}
+.account_center p{
+	height: 40px; 
+}
+.account_center p:last-child{
+	font-size: 12px;
+	color:#7c7c7c;
+	text-indent: 150px;
+}
+.account_right{
+overflow: hidden;
+float:right;
+}
+.account_right a{
+	display: block;
+	width:400px ;
+	height: 60px;
+	background-color:#ea212e;
+	font-size: 24px;
+	line-height: 60px;
+	text-align: center;
+	font-weight: 600;
+	color:white;
+
+}
